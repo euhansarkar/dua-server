@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad16/job-task/toletpro-server/logs/winston/successes/.5ff5dce38635d14b9ef83ea6ca9783fa63439fb9-audit.json",
+    "files": [
+        {
+            "date": 1733259045860,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad16/job-task/toletpro-server/logs/winston/successes/phu-2024-04-12-02-success.log",
+            "hash": "3764397489f9b11a9feb1041e073fea8882454933d3dd1db54058b6fe5a64717"
+        },
+        {
+            "date": 1733260308910,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad16/job-task/toletpro-server/logs/winston/successes/phu-2024-04-12-03-success.log",
+            "hash": "13a2eafb31a36da9fc197d9347ca0452b81a85927322939c5347ba9feb07a99b"
+        }
+    ],
+    "hashType": "sha256"
+}
