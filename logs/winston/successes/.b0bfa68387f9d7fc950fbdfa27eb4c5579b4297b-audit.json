@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/.b0bfa68387f9d7fc950fbdfa27eb4c5579b4297b-audit.json",
+    "files": [
+        {
+            "date": 1733347662799,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-05-12-03-success.log",
+            "hash": "989b72aaddb7f1d07ad41280b33976b70fa084492f56d36da2a465bc0bb81563"
+        },
+        {
+            "date": 1733349733221,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-05-12-04-success.log",
+            "hash": "fda9d539da4cf49e6df9f09f42db734062727a334cf72e1bddf519cb097828fe"
+        }
+    ],
+    "hashType": "sha256"
+}

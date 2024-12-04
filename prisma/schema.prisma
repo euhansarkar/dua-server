@@ -52,6 +52,8 @@ model Dua {
   refference_bn      String?
   refference_en      String?
   audio              String?
+
+  @@map("dua")
 }
 
 model Category {
@@ -62,6 +64,8 @@ model Category {
   no_of_subcat  Int?
   no_of_dua     Int?
   cat_icon      String?
+
+  @@map("category")
 }
 
 model SubCategory {
@@ -71,6 +75,8 @@ model SubCategory {
   subcat_name_bn String?
   subcat_name_en String?
   no_of_dua      Int?
+
+  @@map("sub_category")
 }
 
 model Version {
