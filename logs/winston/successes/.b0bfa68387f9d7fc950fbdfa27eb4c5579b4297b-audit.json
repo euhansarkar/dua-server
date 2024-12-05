@@ -19,6 +19,11 @@
             "date": 1733391622534,
             "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-05-12-15-success.log",
             "hash": "c7b570b1ab5f79dd8c8a23f12c41a16a3047584d445f03251c251940cbfe83b4"
+        },
+        {
+            "date": 1733428495760,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-01-success.log",
+            "hash": "820c4454d2b5f20d947c347fb1e2cb2626403371e37ec6531a0a83f06ca5d5c7"
         }
     ],
     "hashType": "sha256"

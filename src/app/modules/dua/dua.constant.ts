@@ -1,4 +1,4 @@
-export const DuaSearchableFields = ['name'];
+export const DuaSearchableFields = ['dua_name_bn', 'dua_name_en', 'top_bn', 'top_en'];
 
 export const DuaRelationalFields = [
 

@@ -1,4 +1,8 @@
-export const SubCategorySearchableFields = ['name'];
+export const SubCategorySearchableFields = [
+  'subcat_name_bn',
+  'subcat_name_en',
+  'no_of_dua',
+];
 
 export const SubCategoryRelationalFields = [
 
