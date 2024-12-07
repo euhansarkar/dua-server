@@ -31,6 +31,35 @@ model SqlbTempTable1 {
   audio              String?
 }
 
+
+model Category {
+  id            Int     @id @default(autoincrement())
+  cat_id        Int?
+  cat_name_bn   String?
+  cat_name_en   String?
+  no_of_subcat  Int?
+  no_of_dua     Int?
+  cat_icon      String?
+
+  duas          Dua[]       
+  subCategories SubCategory[] 
+  @@map("category")
+}
+
+model SubCategory {
+  id             Int     @id @default(autoincrement())
+  cat_id         Int?
+  subcat_id      Int?
+  subcat_name_bn String?
+  subcat_name_en String?
+  no_of_dua      Int?
+
+ category       Category?   @relation(fields: [cat_id], references: [id])
+ duas           Dua[] 
+  @@map("sub_category")
+}
+
+
 model Dua {
   id                 Int     @id @default(autoincrement())
   cat_id             Int?
@@ -53,31 +82,11 @@ model Dua {
   refference_en      String?
   audio              String?
 
+  category           Category?   @relation(fields: [cat_id], references: [id])
+  subCategory        SubCategory? @relation(fields: [subcat_id], references: [id])
   @@map("dua")
 }
 
-model Category {
-  id            Int     @id @default(autoincrement())
-  cat_id        Int?
-  cat_name_bn   String?
-  cat_name_en   String?
-  no_of_subcat  Int?
-  no_of_dua     Int?
-  cat_icon      String?
-
-  @@map("category")
-}
-
-model SubCategory {
-  id             Int     @id @default(autoincrement())
-  cat_id         Int?
-  subcat_id      Int?
-  subcat_name_bn String?
-  subcat_name_en String?
-  no_of_dua      Int?
-
-  @@map("sub_category")
-}
 
 model Version {
   id        Int     @id @default(autoincrement())

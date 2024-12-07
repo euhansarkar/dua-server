@@ -31,6 +31,10 @@ const getAll = async (
         skip,
         take: limit,
         where: whereConditions,
+        include: {
+            subCategories: true,
+            duas: true
+        }
     });
     const total = await prisma.category.count({
         where: whereConditions
@@ -48,9 +52,13 @@ const getAll = async (
 
 const getOne = async (id: number): Promise<Category | null> => {
     const result = await prisma.category.findUnique({
-        where: {
-            id
-        }
+      where: {
+        id,
+      },
+      include: {
+          subCategories: true,
+          duas: true
+      },
     });
     return result;
 };

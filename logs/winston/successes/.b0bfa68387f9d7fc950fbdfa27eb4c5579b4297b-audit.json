@@ -24,6 +24,76 @@
             "date": 1733428495760,
             "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-01-success.log",
             "hash": "820c4454d2b5f20d947c347fb1e2cb2626403371e37ec6531a0a83f06ca5d5c7"
+        },
+        {
+            "date": 1733436053493,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-04-success.log",
+            "hash": "ea7b0e1c9626f29e067683a761e90f60c59e90b8be98587bca67cf73be4b8496"
+        },
+        {
+            "date": 1733466493667,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-12-success.log",
+            "hash": "b923739508dbef2771011a7475805f5d267f524d0a92e9a6cbb36c79ccb60ca6"
+        },
+        {
+            "date": 1733469912758,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-13-success.log",
+            "hash": "510a1b060bbe5d90e17f24f8899c37419e76903b2a8782996b0598f4bcf1475c"
+        },
+        {
+            "date": 1733484403555,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-06-12-17-success.log",
+            "hash": "a7a04a949c502c255da6c90e8477d10f4b9e02862c09dceffad812bc27dda275"
+        },
+        {
+            "date": 1733509901270,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-00-success.log",
+            "hash": "1f0f1852ea6a8356456d40ed70a0819fa8aa80a2dd4349256dc5013eddd776a9"
+        },
+        {
+            "date": 1733511611152,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-01-success.log",
+            "hash": "0705a78c014e6fb7434a15180e50dd3c842d71b8d64337eec4f3520b0e4bd0ca"
+        },
+        {
+            "date": 1733515509140,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-02-success.log",
+            "hash": "ab9372228f2679e335b3343891cb321cc02af394cb233cc3affc45b135fa60a6"
+        },
+        {
+            "date": 1733518842174,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-03-success.log",
+            "hash": "a563b261442f20e903712ec039aeb67e365378fd7a13a5ce286ae2dd3e82da71"
+        },
+        {
+            "date": 1733550788814,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-11-success.log",
+            "hash": "67185092079a753ed5d9da5bb720469baedb8f113e259329b0bc13ec22f5967c"
+        },
+        {
+            "date": 1733554943704,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-13-success.log",
+            "hash": "c2477b523f016f9fcdaec71b445e70558729fe325e5f203010cfc6a93faad32c"
+        },
+        {
+            "date": 1733564115729,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-15-success.log",
+            "hash": "2e6d68aefc10bf3690ebff9736ddb9206540a4aacd4ee2cc83b8e963fa77e28e"
+        },
+        {
+            "date": 1733584624928,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-07-12-21-success.log",
+            "hash": "4a0bbe3881671e7e8705cb632566fba6a0b5a859fc03bef9616e66caeeeb77f0"
+        },
+        {
+            "date": 1733597033606,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-08-12-00-success.log",
+            "hash": "89052a685a210c606add4edf21c14701efeac1095610aed97de3018c3a187ca9"
+        },
+        {
+            "date": 1733600120216,
+            "name": "/media/euhansarkar/1df32a2b-b33c-4df6-b3c8-91194248ad161/job-task/dua-server/logs/winston/successes/phu-2024-08-12-01-success.log",
+            "hash": "10f73e2db12aa0030091ee10066a5dc6fcc489b27c3ca5ded32596a2dadcb0f0"
         }
     ],
     "hashType": "sha256"

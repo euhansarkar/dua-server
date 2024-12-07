@@ -13,41 +13,52 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SearchingFilteringHelper = void 0;
-const searchingFiltering = ({ filters, searchAbleFields, relationalFields, relationalFieldsMapper }) => {
+const searchingFiltering = ({ filters, searchAbleFields, relationalFields, relationalFieldsMapper, }) => {
     const { searchTerm } = filters, filterData = __rest(filters, ["searchTerm"]);
+    // Process `filterData` to handle data type conversions
+    const filterDataTypes = Object.entries(filterData).reduce((acc, [key, value]) => {
+        if (typeof value === 'string' && !isNaN(Number(value))) {
+            acc[key] = Number(value); // Convert to number if not NaN
+        }
+        else {
+            acc[key] = value; // Keep as is otherwise
+        }
+        return acc;
+    }, {});
+    console.log(`Processed filter data:`, filterDataTypes);
     const andConditions = [];
     if (searchTerm) {
         andConditions.push({
-            OR: searchAbleFields.map((field) => ({
+            OR: searchAbleFields.map(field => ({
                 [field]: {
                     contains: searchTerm,
-                    mode: 'insensitive'
-                }
-            }))
+                    mode: 'insensitive',
+                },
+            })),
         });
     }
-    if (Object.keys(filterData).length > 0) {
+    if (Object.keys(filterDataTypes).length > 0) {
         andConditions.push({
-            AND: Object.keys(filterData).map((key) => {
+            AND: Object.keys(filterDataTypes).map(key => {
                 if (relationalFields.includes(key)) {
                     return {
                         [relationalFieldsMapper[key]]: {
-                            id: filterData[key]
-                        }
+                            id: filterDataTypes[key],
+                        },
                     };
                 }
                 else {
                     return {
                         [key]: {
-                            equals: filterData[key]
-                        }
+                            equals: filterDataTypes[key],
+                        },
                     };
                 }
-            })
+            }),
         });
     }
     return andConditions;
 };
 exports.SearchingFilteringHelper = {
-    searchingFiltering
+    searchingFiltering,
 };

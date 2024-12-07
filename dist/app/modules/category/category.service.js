@@ -31,6 +31,10 @@ const getAll = (filters, options) => __awaiter(void 0, void 0, void 0, function*
         skip,
         take: limit,
         where: whereConditions,
+        include: {
+            subCategories: true,
+            duas: true
+        }
     });
     const total = yield prisma_1.default.category.count({
         where: whereConditions
@@ -47,8 +51,12 @@ const getAll = (filters, options) => __awaiter(void 0, void 0, void 0, function*
 const getOne = (id) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield prisma_1.default.category.findUnique({
         where: {
-            id
-        }
+            id,
+        },
+        include: {
+            subCategories: true,
+            duas: true
+        },
     });
     return result;
 });

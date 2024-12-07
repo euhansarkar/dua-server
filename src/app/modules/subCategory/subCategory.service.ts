@@ -35,6 +35,9 @@ const getAll = async (
       skip,
       take: limit,
       where: whereConditions,
+      include: {
+        duas: true
+      }
     });
     const total = await prisma.subCategory.count({
       where: whereConditions,
@@ -55,6 +58,9 @@ const getOne = async (id: number): Promise<SubCategory | null> => {
       where: {
         id,
       },
+      include: {
+        duas: true
+      }
     });
     return result;
 };

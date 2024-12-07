@@ -31,6 +31,9 @@ const getAll = (filters, options) => __awaiter(void 0, void 0, void 0, function*
         skip,
         take: limit,
         where: whereConditions,
+        include: {
+            duas: true
+        }
     });
     const total = yield prisma_1.default.subCategory.count({
         where: whereConditions,
@@ -49,6 +52,9 @@ const getOne = (id) => __awaiter(void 0, void 0, void 0, function* () {
         where: {
             id,
         },
+        include: {
+            duas: true
+        }
     });
     return result;
 });
