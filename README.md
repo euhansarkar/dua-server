@@ -12,6 +12,10 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [pnpm](https://pnpm.io/) (Package Manager)
+  - If `pnpm` is not installed, install it using:
+    ```bash
+    npm i -g pnpm
+    ```
 
 ### Installation
 
