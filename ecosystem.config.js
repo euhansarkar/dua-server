@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'toletpro-server',
+      name: 'dua-server',
       script: './dist/server.js',
       args: 'start',
       env: {
